@@ -73,7 +73,7 @@ chatbot_greeting = [
     "Hello there, welcome to DEJI'S Bot. pls enjoy your usage",
     "Hi user, This bot is created by DEJI, enjoy your usage",
     "Hi hi, How you dey my nigga",
-    "Alaye mi, Abeg enjoy your usage",
+    "sup gee"
     "Hey Hey, pls enjoy your usage"    
 ]
 
