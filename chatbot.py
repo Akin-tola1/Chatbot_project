@@ -8,7 +8,9 @@ import warnings
 warnings.filterwarnings('ignore')
 # import spacy
 lemmatizer = nltk.stem.WordNetLemmatizer()
-
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 data = pd.read_csv('Samsung Dialog.txt', sep= ':',header= None)
 data.head()
@@ -68,8 +70,8 @@ def bot_response(user_input):
     return df['Answer'].iloc[most_similar_index]
 
 chatbot_greeting = [
-    "Hello there, welcome to Orpheus Bot. pls ejoy your usage",
-    "Hi user, This bot is created by oprheus, enjoy your usage",
+    "Hello there, welcome to DEJI'S Bot. pls enjoy your usage",
+    "Hi user, This bot is created by DEJI, enjoy your usage",
     "Hi hi, How you dey my nigga",
     "Alaye mi, Abeg enjoy your usage",
     "Hey Hey, pls enjoy your usage"    
